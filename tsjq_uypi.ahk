@@ -22,6 +22,10 @@ FunctionName(vnwm_rj){
     {
         Run "数据流版本信息闪退测试辅助点击2.ahk"
     }
+    else if StrLower(inputObj.value) == "drbz b3"
+    {
+        Run "数据流版本信息闪退测试辅助点击3.ahk"
+    }
     ELSE IF StrLower(inputObj.value) == "glrh"
     {
         Run "glrh.ahk"

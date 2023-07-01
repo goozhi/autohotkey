@@ -11,7 +11,7 @@ b::{
 
     if (xz_1 == 0xFDFDFD||xz_zsvt_uaep_1 == 0xFDFDFD) && xz_2 == 0xE7E7E7 && xz_3 != 0xFFFFFF
     {
-        Click(657,174)
+        Click(657,139)
     }
     Else
     {
@@ -97,12 +97,12 @@ e::{
 
         if (xz_1 == 0xFDFDFD||xz_zsvt_uaep_1 == 0xFDFDFD) && xz_2 == 0xE7E7E7 && xz_3 != 0xFFFFFF
         {
-            Click(770,330)
+            Click(770,298)
         }
         else if xz_3 == 0xFFFFFF
         {
             if(xz_zstv_ok_sb_tt!=0x0466DA){
-                click(24,126)
+                click(24,109)
                 click(1376,809)
                 MouseMove(500,500)
             }else{
