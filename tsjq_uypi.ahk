@@ -26,11 +26,15 @@ FunctionName(vnwm_rj){
     {
         Run "数据流版本信息闪退测试辅助点击3.ahk"
     }
-    ELSE IF StrLower(inputObj.value) == "glrh"
-    {
-        Run "glrh.ahk"
-    }
-    ELSE IF StrLower(inputObj.value) == "lzdr"
+    else if StrLower(inputObj.value) == "glrh"
+        {
+            Run "glrh.ahk"
+        }
+        else if StrLower(inputObj.value) == "test"
+            {
+                Run "test.ahk"
+            }
+                else if StrLower(inputObj.value) == "lzdr"
     {
         Reload
     }
